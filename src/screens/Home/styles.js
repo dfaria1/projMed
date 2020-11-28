@@ -1,0 +1,68 @@
+// cSpell:ignore Scroller
+import React from 'react'
+import styled from 'styled-components/native'
+
+export const Container = styled.SafeAreaView`
+background-color: #F7F7F7;
+flex: 1;
+justify-content: center;
+align-items: center;
+`
+
+export const Scroller = styled.ScrollView`
+flex: 1;
+padding: 5px;
+width: 95%;
+`
+
+export const HeaderArea = styled.View`
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+`
+
+export const HeaderTitle = styled.Text`
+width: 85%;
+font-size: 20px;
+font-weight: bold;
+color: #FE4343;
+margin-top: 25px;
+`
+
+export const SearchButton = styled.TouchableOpacity`
+width: 26px;
+height: 26px;
+
+`
+
+export const LocationArea = styled.View`
+background-color: #FE7979;
+height: 60px;
+border-radius: 30px;
+flex-direction: row;
+align-items: center;
+padding-left: 10px;
+padding-right: 10px;
+margin-top: 30px;
+`
+
+export const LocationInput = styled.TextInput`
+flex: 1;
+font-size: 16px;
+color: #FE4343;
+
+`
+
+export const LocationFinder = styled.TouchableOpacity`
+width: 24px;
+height: 24px;
+`
+
+export const LoadingIcon = styled.ActivityIndicator`
+margin-top: 50px;
+`
+
+export const ListArea = styled.View`
+margin-top: 30px;
+margin-bottom: 30px;
+`
